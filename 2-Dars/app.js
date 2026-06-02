@@ -75,6 +75,49 @@
 // Object
 // 1.Kalit(property): 2.Qiymat(Value) - String, Number,Boolean,Undefined
 
-const person = {
-    name = "Asad"
-}
+// const person = {
+//     name: "Asad",
+//     age: 23,
+//     hobbies: {
+//         music: 'rock',
+//         code: true
+//     }
+// }
+
+// console.log(person.hobbies.code);
+
+// Oddiy Massiv
+
+    //         0        1       2        3
+// const arr = ['red', 'green', 'blue', 'yellow']
+// // console.log(arr[2]);
+
+// // push() - massivga element qo'shadi
+// arr.push('black')
+// console.log(arr);
+
+// // pop() - massivdan oxirgi elementni o'chiradi
+// arr.pop()
+// console.log(arr);
+
+// // unshift() - massivga boshidan element qo'shadi
+// arr.unshift('white')
+// console.log(arr);
+
+// // shift() - massivdan boshidan elementni o'chiradi
+// arr.shift()
+// console.log(arr);
+
+// Window, Interpolatsiya, Operatorlar
+
+// Window - Brauzer oynasi
+// alert("Salom Dunyo!");
+
+// confirm("Siz 18 yoshdan kattamisiz?");
+
+// const age = confirm("Yoshingiz nechida?")
+// console.log(typeof age);
+
+const age = +prompt("Yoshingiz nechida?")
+const ageNum = 3 + age
+console.log(ageNum);
