@@ -48,40 +48,6 @@
 //         break
 // }
 
-let day = 5
-switch (day) {
-    case 1:
-        console.log(day, "Dushanba");
-        break
-
-    case 2:
-        console.log(day, "seshanba");
-        break
-    
-    case 3:
-        console.log(day, 'chorshanba')
-        break
-        
-    case 4:
-        console.log(day, 'payshanba');
-        break
-
-    case 5:
-        console.log(day, 'juma')
-        break
-    
-    case 6:
-        console.log(day, 'shanba')
-        break
-
-    case 7:
-        console.log(day, 'yakshanba')
-    
-    default:
-        console.log('hafta gun yoq binnin: ', day);
-        
-}
-
 
 
 // const age = +prompt("Yoshin nechida?");
@@ -100,3 +66,94 @@ switch (day) {
 // for (let i = 0; i < colors.length; i++) {
 //     console.log("Rang: " + colors[i]);
 // }
+
+
+// let day = +prompt('Hafta kunini kiri')
+// switch (day) {
+//     case 1:
+//         console.log("Dushanba");
+//         break
+
+//     case 2:
+//         console.log("seshanba");
+//         break
+    
+//     case 3:
+//         console.log('chorshanba')
+//         break
+        
+//     case 4:
+//         console.log('payshanba');
+//         break
+
+//     case 5:
+//         console.log('juma')
+//         break
+    
+//     case 6:
+//         console.log('shanba')
+//         break
+
+//     case 7:
+//         console.log('yakshanba')
+    
+//     default:
+//         console.log('hafta gun yoq binnin: ');
+        
+// }
+
+
+// while loop
+// do while loop
+// for loop
+
+// Xato !!!!!!!!!
+// console.log(1)
+// console.log(2)
+// console.log(3)
+// console.log(4)
+// console.log(5)
+// console.log(6)
+// console.log(7)
+// console.log(8)
+// console.log(9)
+// console.log(10)
+
+
+// Togri yoli ✅
+// let number = 1
+// while (number <= 10){
+//     console.log(number);
+//     number++
+// }
+
+
+// let num = 1
+// do {
+//     console.log(num);
+//     num++
+// } while (num <= 10)
+
+// let i = 1
+// for (i; i <= 10; i++) {
+//     if (i === 5 ) {
+//         // break
+//         continue
+//     }
+//     console.log(i);
+    
+// }
+
+
+// UV  ----------------------------- ⬇️
+// 1 - 10 gacha juft sonlarni chiqaring har bir loopda
+// 1-30 gacha faqat 3ga bolinadigan sonlarni chiqaring har bir loopda
+
+// Ternerniy operator
+
+// const age = +prompt("Yoshingizni kiriting")
+
+// age >= 18 ? console.log("Siz katta yoshdasiz") : console.log('siz hali yoshsiz');
+
+// Functionlar
+// Arrow funcitonlar
