@@ -76,6 +76,10 @@ switch (day) {
 
     case 7:
         console.log(day, 'yakshanba')
+    
+    default:
+        console.log('hafta gun yoq binnin: ', day);
+        
 }
 
 
